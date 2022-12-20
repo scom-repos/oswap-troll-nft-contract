@@ -1,5 +1,5 @@
-/// <amd-module name="@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.json.ts" {
     const _default: {
         abi: ({
             inputs: {
@@ -44,8 +44,8 @@ declare module "@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token
     };
     export default _default;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts" />
-declare module "@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -156,8 +156,8 @@ declare module "@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/Authorization.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/Authorization.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/Authorization.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/Authorization.json.ts" {
     const _default_1: {
         abi: ({
             inputs: any[];
@@ -198,8 +198,8 @@ declare module "@scom/troll-nft-contract/contracts/Authorization.json.ts" {
     };
     export default _default_1;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/Authorization.ts" />
-declare module "@scom/troll-nft-contract/contracts/Authorization.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/Authorization.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/Authorization.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, Event, TransactionOptions } from "@ijstech/eth-contract";
     export class Authorization extends _Contract {
         static _abi: any;
@@ -259,8 +259,8 @@ declare module "@scom/troll-nft-contract/contracts/Authorization.ts" {
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT.json.ts" {
     const _default_2: {
         abi: ({
             inputs: {
@@ -305,8 +305,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT.json.ts" {
     };
     export default _default_2;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -662,8 +662,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT.ts" {
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFTV2.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFTV2.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFTV2.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFTV2.json.ts" {
     const _default_3: {
         abi: ({
             inputs: ({
@@ -718,8 +718,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFTV2.json.ts" {
     };
     export default _default_3;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFTV2.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFTV2.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFTV2.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFTV2.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -1197,8 +1197,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFTV2.ts" {
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT_VRF.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRF.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRF.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRF.json.ts" {
     const _default_4: {
         abi: ({
             inputs: {
@@ -1243,8 +1243,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRF.json.ts" {
     };
     export default _default_4;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT_VRF.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRF.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRF.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRF.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -1622,8 +1622,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRF.ts" {
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.json.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.json.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRFV2.json.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRFV2.json.ts" {
     const _default_5: {
         abi: ({
             inputs: ({
@@ -1678,8 +1678,8 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.json.ts" {
     };
     export default _default_5;
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.ts" />
-declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.ts" {
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRFV2.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRFV2.ts" {
     import { IWallet, Contract as _Contract, TransactionReceipt, BigNumber, Event, TransactionOptions } from "@ijstech/eth-contract";
     export interface IDeployParams {
         name: string;
@@ -2181,16 +2181,16 @@ declare module "@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.ts" {
         }
     }
 }
-/// <amd-module name="@scom/troll-nft-contract/contracts/index.ts" />
-declare module "@scom/troll-nft-contract/contracts/index.ts" {
-    export { ERC721 } from "@scom/troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts";
-    export { Authorization } from "@scom/troll-nft-contract/contracts/Authorization.ts";
-    export { TrollNFT } from "@scom/troll-nft-contract/contracts/TrollNFT.ts";
-    export { TrollNFTV2 } from "@scom/troll-nft-contract/contracts/TrollNFTV2.ts";
-    export { TrollNFT_VRF } from "@scom/troll-nft-contract/contracts/TrollNFT_VRF.ts";
-    export { TrollNFT_VRFV2 } from "@scom/troll-nft-contract/contracts/TrollNFT_VRFV2.ts";
+/// <amd-module name="@scom/oswap-troll-nft-contract/contracts/index.ts" />
+declare module "@scom/oswap-troll-nft-contract/contracts/index.ts" {
+    export { ERC721 } from "@scom/oswap-troll-nft-contract/contracts/@openzeppelin/contracts/token/ERC721/ERC721.ts";
+    export { Authorization } from "@scom/oswap-troll-nft-contract/contracts/Authorization.ts";
+    export { TrollNFT } from "@scom/oswap-troll-nft-contract/contracts/TrollNFT.ts";
+    export { TrollNFTV2 } from "@scom/oswap-troll-nft-contract/contracts/TrollNFTV2.ts";
+    export { TrollNFT_VRF } from "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRF.ts";
+    export { TrollNFT_VRFV2 } from "@scom/oswap-troll-nft-contract/contracts/TrollNFT_VRFV2.ts";
 }
-/// <amd-module name="@scom/troll-nft-contract" />
-declare module "@scom/troll-nft-contract" {
-    export * as Contracts from "@scom/troll-nft-contract/contracts/index.ts";
+/// <amd-module name="@scom/oswap-troll-nft-contract" />
+declare module "@scom/oswap-troll-nft-contract" {
+    export * as Contracts from "@scom/oswap-troll-nft-contract/contracts/index.ts";
 }

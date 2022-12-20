@@ -1,6 +1,6 @@
 {
-  "name": "@scom/troll-nft-contract",
-  "version": "0.1.3",
+  "name": "@scom/oswap-troll-nft-contract",
+  "version": "0.1.0",
   "description": "",
   "main": "lib/index.js",
   "plugin": "dist/index.js",
